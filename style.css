@@ -1,0 +1,143 @@
+/* Type your code here */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+  background-position: 540px 200px;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+}
+.logo {
+  position: absolute;
+  top: 15px;
+  right: 75px;
+  height: 55px;
+  text-align: right;
+  justify-content: right;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 53px;
+  text-shadow: 4px 4px 3px rgba(123, 122, 122, 0.671);
+  margin-top: 120px;
+  margin-left: 77px;
+  line-height: 0%;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: rgb(111, 111, 111);
+  margin-left: 77px;
+}
+.container {
+  justify-content: space-between;
+  font-size: 19px;
+  margin-left: 75px;
+  width: 1030px;
+  border-collapse: collapse;
+  background-color: white;
+}
+table {
+  height: 450px;
+  width: 1030px;
+}
+td {
+  text-align: right;
+}
+.player_name {
+  text-align: left;
+  color: rgb(0, 153, 255);
+}
+.bowler {
+  text-align: left;
+}
+#batsman {
+  text-align: left;
+  font-weight: 500;
+}
+.container thead tr {
+  color: rgb(18, 17, 17);
+  text-align: left;
+  border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+}
+.container th {
+  padding: 8px 10px;
+}
+.container td {
+  padding: 8px 10px;
+}
+.container tbody tr {
+  border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.89rem;
+  background-color: rgb(237, 83, 53);
+  color: white;
+  width: 1000px;
+  margin-left: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bowler {
+  color: rgb(176, 175, 175);
+}
+.name {
+  color: blue;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+th,
+td {
+  border: 0.5px solid black;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+.last {
+  text-align: left;
+}
+.didnot-bat-names {
+  font-weight: 400;
+}
+#btn1 {
+  height: 20px;
+  display: none;
+}
+.vs {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  margin-left: 77px;
+  margin-top: 40px;
+  font-size: 17px;
+}
+.img {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+  z-index: 1000;
+}
+#dark-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  z-index: 1;
+}
